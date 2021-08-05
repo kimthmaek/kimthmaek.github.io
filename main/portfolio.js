@@ -53,6 +53,14 @@ $(".pf02 .xi-play").on("click", function(){
     $(".p02_video").trigger("play");
 });
 
+$(function(){
+    jQuery("#section m02 pf01").YTPlayer(); });
+
+$(function(){
+    jQuery("#section m03 pf02").YTPlayer(); });
+
+$(function(){
+    jQuery("#section m04 pf03").YTPlayer(); });
 
 $(".pt_slider").slick({
     arrows:false,
@@ -72,10 +80,10 @@ $(".pt_slider").slick({
 
 });
 
-$(".pf03 i.xi-arrow-left").on("click", function(){
+$(".pf03 i.xi-caret-down").on("click", function(){
     $(".pt_slider").slick("slickPrev")
 });
-$(".pf03 i.xi-arrow-right").on("click", function(){
+$(".pf03 i.xi-caret-up").on("click", function(){
     $(".pt_slider").slick("slickNext")
 });
 
